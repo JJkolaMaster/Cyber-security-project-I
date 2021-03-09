@@ -1,15 +1,10 @@
-<!DOCTYPE html>
+{% extends "cyber_blog/base.html" %}
+{% block content %}
 
-<html>
-    <head>
-        <title>Cyber blog home!</title>
-    </head>
+{% for post in posts %}
+    <h1>{{post.title}}</h1>
+    <p>By {{ post.author }} on {{post.date_posted }}</p>
+    <p>{{ post.content }}</p>
+{% endfor %}
 
-    <body>
-        {% for post in posts %}
-        <h1>{{post.title}}</h1>
-        <p>By {{ post.author }} on {{post.date_posted }}</p>
-        <p>{{ post.content }}</p>
-        {% endfor %}
-    </body>
-</html>
+{% endblock content %}

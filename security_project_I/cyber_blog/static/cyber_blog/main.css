@@ -1,6 +1,6 @@
 body {
-    background: #fafafa;
-    color: #333333;
+    background: #1a1919;
+    color: #c401ff;
     margin-top: 5rem;
 }
 
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #444444;
+    color: #c401ff;
 }
 
 ul {
@@ -18,15 +18,40 @@ ul {
 }
 
 .bg-steel {
-    background-color: #5f788a;
+    background-color: #00607e;
 }
 
 .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #12d300;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: #12d300;
+}
+
+.list-group-item-light {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_username {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_email {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_password1 {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_password2 {
+    color: #003af8;
+    background-color: #c19aff;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -34,15 +59,15 @@ ul {
 }
 
 .content-section {
-    background: #ffffff;
+    background: #444343;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #505050;
     border-radius: 3px;
     margin-bottom: 20px;
 }
 
 .article-title {
-    color: #444444;
+    color: #fc66fc;
 }
 
 a.article-title:hover {
@@ -63,11 +88,11 @@ a.article-title:hover {
 .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
+    border-bottom: 1px solid #6b06f0
 }
 
 .article-metadata a:hover {
-    color: #333;
+    color: rgb(2, 131, 170);
     text-decoration: none;
 }
 
@@ -86,4 +111,8 @@ a.article-title:hover {
 
 .account-heading {
     font-size: 2.5rem;
+}
+
+.text-muted {
+    color: #7207ff;
 }

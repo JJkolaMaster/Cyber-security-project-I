@@ -1,0 +1,10 @@
+1.
+cyber_blog/templates/cyber_blog/base.html
+Remove commented users and password
+
+2.
+users/templates/users/register.html
+Add csrf_token
+
+3.
+

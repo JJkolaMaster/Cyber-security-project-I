@@ -1,0 +1,137 @@
+body {
+    background: #1a1919;
+    color: #c401ff;
+    margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #c401ff;
+}
+
+ul {
+    margin: 0;
+}
+
+.bg-steel {
+    background-color: #00607e;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #12d300;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #12d300;
+}
+
+.list-group-item-light {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_username {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_email {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_password {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_password1 {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_password2 {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_title {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#id_content {
+    color: #003af8;
+    background-color: #c19aff;
+}
+
+#file-upload-button {
+    background-color: #97ffc6;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    background: #444343;
+    padding: 10px 20px;
+    border: 1px solid #505050;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #fc66fc;
+}
+
+a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #6b06f0
+}
+
+.article-metadata a:hover {
+    color: rgb(2, 131, 170);
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+.text-muted {
+    color: #7207ff;
+}
